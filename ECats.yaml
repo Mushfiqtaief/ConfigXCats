@@ -1,623 +1,1151 @@
 proxies:
-  - name: "SOCKS5-1"
-    type: socks5
-    server: 203.142.67.89
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-2"
-    type: socks5
-    server: 178.45.231.156
-    port: 1052
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-3"
-    type: socks5
-    server: 91.234.156.78
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-4"
-    type: socks5
-    server: 185.67.145.234
-    port: 1080
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-5"
-    type: socks5
-    server: 94.156.78.192
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-6"
-    type: socks5
-    server: 217.123.89.45
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-7"
-    type: socks5
-    server: 46.89.234.167
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-8"
-    type: socks5
-    server: 213.45.178.92
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-9"
-    type: socks5
-    server: 89.167.234.45
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-10"
-    type: socks5
-    server: 195.78.145.223
-    port: 1080
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-11"
-    type: socks5
-    server: 88.234.56.189
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-12"
-    type: socks5
-    server: 212.156.89.34
-    port: 1080
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-13"
-    type: socks5
-    server: 37.145.78.234
-    port: 1052
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-14"
-    type: socks5
-    server: 83.234.167.45
-    port: 1052
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-15"
-    type: socks5
-    server: 109.56.189.78
-    port: 1052
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-16"
-    type: socks5
-    server: 156.234.45.167
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-17"
-    type: socks5
-    server: 78.145.234.92
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-18"
-    type: socks5
-    server: 198.67.189.234
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-19"
-    type: socks5
-    server: 84.234.78.145
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-20"
-    type: socks5
-    server: 201.45.167.89
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-21"
-    type: socks5
-    server: 67.189.234.156
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-22"
-    type: socks5
-    server: 134.78.145.234
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-23"
-    type: socks5
-    server: 87.234.56.189
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-24"
-    type: socks5
-    server: 204.145.78.234
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-25"
-    type: socks5
-    server: 91.67.189.45
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-26"
-    type: socks5
-    server: 178.234.156.78
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-27"
-    type: socks5
-    server: 45.189.234.167
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-28"
-    type: socks5
-    server: 218.78.145.234
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-29"
-    type: socks5
-    server: 89.234.67.156
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-30"
-    type: socks5
-    server: 156.45.189.78
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-31"
-    type: socks5
-    server: 203.78.234.145
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-32"
-    type: socks5
-    server: 67.234.156.89
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-33"
-    type: socks5
-    server: 134.189.45.78
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-34"
-    type: socks5
-    server: 91.78.234.167
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-35"
-    type: socks5
-    server: 178.145.89.234
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-36"
-    type: socks5
-    server: 45.234.167.56
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-37"
-    type: socks5
-    server: 218.89.78.234
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-38"
-    type: socks5
-    server: 89.156.234.45
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-39"
-    type: socks5
-    server: 156.78.145.234
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-40"
-    type: socks5
-    server: 203.234.89.167
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-41"
-    type: socks5
-    server: 67.145.234.78
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-42"
-    type: socks5
-    server: 134.78.189.234
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-43"
-    type: socks5
-    server: 91.234.45.156
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-44"
-    type: socks5
-    server: 178.89.234.67
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-45"
-    type: socks5
-    server: 45.167.78.234
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-46"
-    type: socks5
-    server: 218.234.145.89
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-47"
-    type: socks5
-    server: 89.78.234.156
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-48"
-    type: socks5
-    server: 156.234.67.189
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-49"
-    type: socks5
-    server: 203.145.89.234
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-50"
-    type: socks5
-    server: 67.78.234.145
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-51"
-    type: socks5
-    server: 134.234.156.78
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-52"
-    type: socks5
-    server: 91.145.78.234
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-53"
-    type: socks5
-    server: 178.78.234.89
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-54"
-    type: socks5
-    server: 45.234.156.167
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-55"
-    type: socks5
-    server: 218.89.234.78
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-56"
-    type: socks5
-    server: 89.234.145.167
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-57"
-    type: socks5
-    server: 156.78.234.89
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-58"
-    type: socks5
-    server: 203.167.89.234
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-59"
-    type: socks5
-    server: 67.234.78.145
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-60"
-    type: socks5
-    server: 134.89.234.156
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-61"
-    type: socks5
-    server: 91.156.78.234
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-62"
-    type: socks5
-    server: 178.234.89.145
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-63"
-    type: socks5
-    server: 45.78.234.167
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-64"
-    type: socks5
-    server: 218.234.156.89
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-65"
-    type: socks5
-    server: 89.145.234.78
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-66"
-    type: socks5
-    server: 156.89.234.167
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-67"
-    type: socks5
-    server: 203.78.145.234
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-68"
-    type: socks5
-    server: 67.167.234.89
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-69"
-    type: socks5
-    server: 134.234.78.156
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-70"
-    type: socks5
-    server: 91.89.234.145
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-71"
-    type: socks5
-    server: 178.156.234.78
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-72"
-    type: socks5
-    server: 45.234.89.167
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-73"
-    type: socks5
-    server: 218.78.234.145
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-74"
-    type: socks5
-    server: 89.234.156.78
-    port: 19568
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-75"
-    type: socks5
-    server: 156.145.234.89
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-76"
-    type: socks5
-    server: 203.234.78.167
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-77"
-    type: socks5
-    server: 67.89.234.145
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-78"
-    type: socks5
-    server: 134.156.234.78
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-79"
-    type: socks5
-    server: 91.234.167.89
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-80"
-    type: socks5
-    server: 178.78.234.156
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-81"
-    type: socks5
-    server: 45.167.234.89
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-82"
-    type: socks5
-    server: 218.89.234.145
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-83"
-    type: socks5
-    server: 89.234.78.167
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-84"
-    type: socks5
-    server: 156.156.234.89
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-85"
-    type: socks5
-    server: 203.89.234.145
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-86"
-    type: socks5
-    server: 67.234.167.78
-    port: 1088
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-87"
-    type: socks5
-    server: 134.78.234.189
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-88"
-    type: socks5
-    server: 91.167.234.89
-    port: 10888
-    username: mtest
-    password: mtest
-
-  - name: "SOCKS5-89"
-    type: socks5
-    server: 178.89.234.145
-    port: 1052
-    username: mtest
-    password: mtest
+- name: 🟢 Server 01
+  type: socks5
+  server: 82.206.13.47
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 02
+  type: socks5
+  server: 58.9.109.13
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 03
+  type: socks5
+  server: 212.68.72.206
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 04
+  type: socks5
+  server: 89.1.185.14
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 05
+  type: socks5
+  server: 98.150.216.214
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 06
+  type: socks5
+  server: 38.200.199.149
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 07
+  type: socks5
+  server: 62.223.15.44
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 08
+  type: socks5
+  server: 187.89.227.164
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 09
+  type: socks5
+  server: 168.175.9.214
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 10
+  type: socks5
+  server: 16.232.147.223
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 11
+  type: socks5
+  server: 48.89.46.185
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 12
+  type: socks5
+  server: 177.169.98.150
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 13
+  type: socks5
+  server: 89.73.91.56
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 14
+  type: socks5
+  server: 141.211.126.97
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 15
+  type: socks5
+  server: 123.93.158.115
+  port: 1920
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 16
+  type: socks5
+  server: 209.178.247.60
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 17
+  type: socks5
+  server: 231.236.147.58
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 18
+  type: socks5
+  server: 120.96.154.243
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 19
+  type: socks5
+  server: 184.211.81.143
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 20
+  type: socks5
+  server: 106.27.22.32
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 21
+  type: socks5
+  server: 171.107.18.63
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 22
+  type: socks5
+  server: 27.74.8.149
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 23
+  type: socks5
+  server: 20.127.175.109
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 24
+  type: socks5
+  server: 2.216.51.126
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 25
+  type: socks5
+  server: 175.163.192.98
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 26
+  type: socks5
+  server: 5.181.220.214
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 27
+  type: socks5
+  server: 39.114.73.78
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 28
+  type: socks5
+  server: 65.249.189.27
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 29
+  type: socks5
+  server: 218.16.41.9
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 30
+  type: socks5
+  server: 200.93.22.150
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 31
+  type: socks5
+  server: 159.168.120.106
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 32
+  type: socks5
+  server: 123.38.84.62
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 33
+  type: socks5
+  server: 8.215.220.200
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 34
+  type: socks5
+  server: 194.205.35.88
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 35
+  type: socks5
+  server: 134.111.69.170
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 36
+  type: socks5
+  server: 49.97.106.114
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 37
+  type: socks5
+  server: 44.223.149.249
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 38
+  type: socks5
+  server: 224.180.56.220
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 39
+  type: socks5
+  server: 186.1.6.84
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 40
+  type: socks5
+  server: 160.189.109.248
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 41
+  type: socks5
+  server: 202.48.230.182
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 42
+  type: socks5
+  server: 114.254.225.48
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 43
+  type: socks5
+  server: 163.31.191.114
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 44
+  type: socks5
+  server: 1.13.53.41
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 45
+  type: socks5
+  server: 77.46.231.97
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 46
+  type: socks5
+  server: 203.195.44.29
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 47
+  type: socks5
+  server: 68.233.91.127
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 48
+  type: socks5
+  server: 235.158.240.122
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 49
+  type: socks5
+  server: 76.170.230.206
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 50
+  type: socks5
+  server: 63.70.101.188
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 51
+  type: socks5
+  server: 112.255.55.38
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 52
+  type: socks5
+  server: 117.101.221.186
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 53
+  type: socks5
+  server: 234.132.99.1
+  port: 9169
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 54
+  type: http
+  server: 129.117.57.165
+  port: 9669
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 55
+  type: http
+  server: 121.239.182.145
+  port: 40544
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 56
+  type: http
+  server: 70.60.152.203
+  port: 26100
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 57
+  type: http
+  server: 210.30.136.160
+  port: 17209
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 58
+  type: http
+  server: 186.23.182.34
+  port: 8742
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 59
+  type: http
+  server: 52.104.205.110
+  port: 6565
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 60
+  type: http
+  server: 89.22.159.213
+  port: 7675
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 61
+  type: socks5
+  server: 215.55.1.114
+  port: 1080
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 62
+  type: socks5
+  server: 64.34.48.129
+  port: 1080
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 63
+  type: socks5
+  server: 227.63.79.164
+  port: 9966
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 64
+  type: socks5
+  server: 4.37.30.121
+  port: 1080
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 65
+  type: socks5
+  server: 81.207.132.20
+  port: 9090
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 66
+  type: socks5
+  server: 148.108.46.141
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 67
+  type: socks5
+  server: 6.212.116.200
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 68
+  type: socks5
+  server: 3.233.109.167
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 69
+  type: socks5
+  server: 120.248.210.89
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 70
+  type: socks5
+  server: 208.65.109.45
+  port: 1080
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 71
+  type: socks5
+  server: 95.231.91.154
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 72
+  type: socks5
+  server: 98.234.191.10
+  port: 1080
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 73
+  type: socks5
+  server: 101.67.178.118
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 74
+  type: http
+  server: 128.140.153.55
+  port: 9999
+  username: '@£@T$'
+  password: '@£@T$'
+- name: 🟢 Server 75
+  type: socks5
+  server: 113.0.114.88
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 76
+  type: socks5
+  server: 103.23.60.22
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 77
+  type: socks5
+  server: 191.117.234.167
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 78
+  type: socks5
+  server: 25.118.245.241
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 79
+  type: socks5
+  server: 185.165.99.184
+  port: 6969
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 80
+  type: socks5
+  server: 151.81.21.241
+  port: 6699
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 81
+  type: socks5
+  server: 168.248.203.23
+  port: 1080
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 82
+  type: socks5
+  server: 135.118.17.191
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 83
+  type: socks5
+  server: 77.153.46.131
+  port: 1052
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 84
+  type: socks5
+  server: 58.249.20.235
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 85
+  type: socks5
+  server: 184.136.59.8
+  port: 1080
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 86
+  type: socks5
+  server: 39.66.166.234
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 87
+  type: socks5
+  server: 202.15.209.184
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 88
+  type: socks5
+  server: 65.186.236.231
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 89
+  type: socks5
+  server: 159.204.130.145
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 90
+  type: socks5
+  server: 113.237.7.87
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 91
+  type: socks5
+  server: 213.215.176.180
+  port: 1080
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 92
+  type: socks5
+  server: 73.211.131.182
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 93
+  type: socks5
+  server: 171.111.111.107
+  port: 1080
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 94
+  type: socks5
+  server: 17.123.177.139
+  port: 1052
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 95
+  type: socks5
+  server: 181.23.249.88
+  port: 1052
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 96
+  type: socks5
+  server: 219.3.153.73
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 97
+  type: socks5
+  server: 229.182.82.242
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 98
+  type: socks5
+  server: 125.45.118.109
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 99
+  type: socks5
+  server: 66.36.243.124
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 100
+  type: socks5
+  server: 167.30.149.33
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 101
+  type: socks5
+  server: 96.245.11.212
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 102
+  type: socks5
+  server: 204.127.154.66
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 103
+  type: socks5
+  server: 36.185.169.60
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 104
+  type: socks5
+  server: 55.63.166.219
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 105
+  type: socks5
+  server: 34.251.216.203
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 106
+  type: socks5
+  server: 140.100.135.179
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 107
+  type: socks5
+  server: 60.175.213.230
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 108
+  type: socks5
+  server: 45.116.141.168
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 109
+  type: socks5
+  server: 227.141.107.79
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 110
+  type: socks5
+  server: 148.92.176.6
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 111
+  type: socks5
+  server: 82.210.149.158
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 112
+  type: socks5
+  server: 177.70.156.9
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 113
+  type: socks5
+  server: 235.247.158.86
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 114
+  type: socks5
+  server: 121.20.152.120
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 115
+  type: socks5
+  server: 163.95.59.20
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 116
+  type: socks5
+  server: 238.122.94.211
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 117
+  type: socks5
+  server: 164.104.31.51
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 118
+  type: socks5
+  server: 7.15.37.46
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 119
+  type: socks5
+  server: 175.9.171.78
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 120
+  type: socks5
+  server: 174.152.72.177
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 121
+  type: socks5
+  server: 43.183.161.218
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 122
+  type: socks5
+  server: 124.101.102.24
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 123
+  type: socks5
+  server: 43.141.126.11
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 124
+  type: socks5
+  server: 15.133.131.85
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 125
+  type: socks5
+  server: 18.148.84.197
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 126
+  type: socks5
+  server: 148.87.145.20
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 127
+  type: socks5
+  server: 80.242.210.125
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 128
+  type: socks5
+  server: 195.66.40.62
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 129
+  type: socks5
+  server: 49.5.97.125
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 130
+  type: socks5
+  server: 96.26.157.140
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 131
+  type: socks5
+  server: 49.62.40.10
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 132
+  type: socks5
+  server: 171.61.91.32
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 133
+  type: socks5
+  server: 26.56.110.41
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 134
+  type: socks5
+  server: 97.202.163.235
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 135
+  type: socks5
+  server: 72.179.190.45
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 136
+  type: socks5
+  server: 42.43.141.78
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 137
+  type: socks5
+  server: 132.18.107.73
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 138
+  type: socks5
+  server: 117.204.239.21
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 139
+  type: socks5
+  server: 30.39.27.179
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 140
+  type: socks5
+  server: 188.76.8.53
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 141
+  type: socks5
+  server: 101.221.18.158
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 142
+  type: socks5
+  server: 86.203.117.3
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 143
+  type: socks5
+  server: 20.228.231.118
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 144
+  type: socks5
+  server: 104.143.156.239
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 145
+  type: socks5
+  server: 3.167.226.171
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 146
+  type: socks5
+  server: 166.247.139.244
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 147
+  type: socks5
+  server: 57.158.51.94
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 148
+  type: socks5
+  server: 17.86.242.15
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 149
+  type: socks5
+  server: 236.234.125.136
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 150
+  type: socks5
+  server: 54.107.36.246
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 151
+  type: socks5
+  server: 206.69.251.145
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 152
+  type: socks5
+  server: 103.180.162.232
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 153
+  type: socks5
+  server: 154.32.63.167
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 154
+  type: socks5
+  server: 15.237.227.137
+  port: 19568
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 155
+  type: socks5
+  server: 219.162.200.114
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 156
+  type: socks5
+  server: 20.82.39.78
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 157
+  type: socks5
+  server: 229.9.139.62
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 158
+  type: socks5
+  server: 222.127.19.222
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 159
+  type: socks5
+  server: 125.168.55.113
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 160
+  type: socks5
+  server: 222.18.243.33
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 161
+  type: socks5
+  server: 158.208.216.208
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 162
+  type: socks5
+  server: 138.233.23.243
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 163
+  type: socks5
+  server: 93.183.63.95
+  port: 1088
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 164
+  type: socks5
+  server: 184.190.27.180
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 165
+  type: socks5
+  server: 154.132.172.137
+  port: 10888
+  username: '@£@T$'
+  password: '@£@T$'
+  
+- name: 🟢 Server 166
+  type: socks5
+  server: 145.32.62.165
+  port: 1052
+  username: '@£@T$'
+  password: '@£@T$'
+  
