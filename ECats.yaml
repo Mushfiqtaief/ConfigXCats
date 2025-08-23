@@ -1,1 +1,623 @@
-https://raw.githubusercontent.com/Mushfiqtaief/.hidden/refs/heads/master/requirements.txt
+proxies:
+  - name: "SOCKS5-1"
+    type: socks5
+    server: 203.142.67.89
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-2"
+    type: socks5
+    server: 178.45.231.156
+    port: 1052
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-3"
+    type: socks5
+    server: 91.234.156.78
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-4"
+    type: socks5
+    server: 185.67.145.234
+    port: 1080
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-5"
+    type: socks5
+    server: 94.156.78.192
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-6"
+    type: socks5
+    server: 217.123.89.45
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-7"
+    type: socks5
+    server: 46.89.234.167
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-8"
+    type: socks5
+    server: 213.45.178.92
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-9"
+    type: socks5
+    server: 89.167.234.45
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-10"
+    type: socks5
+    server: 195.78.145.223
+    port: 1080
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-11"
+    type: socks5
+    server: 88.234.56.189
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-12"
+    type: socks5
+    server: 212.156.89.34
+    port: 1080
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-13"
+    type: socks5
+    server: 37.145.78.234
+    port: 1052
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-14"
+    type: socks5
+    server: 83.234.167.45
+    port: 1052
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-15"
+    type: socks5
+    server: 109.56.189.78
+    port: 1052
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-16"
+    type: socks5
+    server: 156.234.45.167
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-17"
+    type: socks5
+    server: 78.145.234.92
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-18"
+    type: socks5
+    server: 198.67.189.234
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-19"
+    type: socks5
+    server: 84.234.78.145
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-20"
+    type: socks5
+    server: 201.45.167.89
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-21"
+    type: socks5
+    server: 67.189.234.156
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-22"
+    type: socks5
+    server: 134.78.145.234
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-23"
+    type: socks5
+    server: 87.234.56.189
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-24"
+    type: socks5
+    server: 204.145.78.234
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-25"
+    type: socks5
+    server: 91.67.189.45
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-26"
+    type: socks5
+    server: 178.234.156.78
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-27"
+    type: socks5
+    server: 45.189.234.167
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-28"
+    type: socks5
+    server: 218.78.145.234
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-29"
+    type: socks5
+    server: 89.234.67.156
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-30"
+    type: socks5
+    server: 156.45.189.78
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-31"
+    type: socks5
+    server: 203.78.234.145
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-32"
+    type: socks5
+    server: 67.234.156.89
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-33"
+    type: socks5
+    server: 134.189.45.78
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-34"
+    type: socks5
+    server: 91.78.234.167
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-35"
+    type: socks5
+    server: 178.145.89.234
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-36"
+    type: socks5
+    server: 45.234.167.56
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-37"
+    type: socks5
+    server: 218.89.78.234
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-38"
+    type: socks5
+    server: 89.156.234.45
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-39"
+    type: socks5
+    server: 156.78.145.234
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-40"
+    type: socks5
+    server: 203.234.89.167
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-41"
+    type: socks5
+    server: 67.145.234.78
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-42"
+    type: socks5
+    server: 134.78.189.234
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-43"
+    type: socks5
+    server: 91.234.45.156
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-44"
+    type: socks5
+    server: 178.89.234.67
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-45"
+    type: socks5
+    server: 45.167.78.234
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-46"
+    type: socks5
+    server: 218.234.145.89
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-47"
+    type: socks5
+    server: 89.78.234.156
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-48"
+    type: socks5
+    server: 156.234.67.189
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-49"
+    type: socks5
+    server: 203.145.89.234
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-50"
+    type: socks5
+    server: 67.78.234.145
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-51"
+    type: socks5
+    server: 134.234.156.78
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-52"
+    type: socks5
+    server: 91.145.78.234
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-53"
+    type: socks5
+    server: 178.78.234.89
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-54"
+    type: socks5
+    server: 45.234.156.167
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-55"
+    type: socks5
+    server: 218.89.234.78
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-56"
+    type: socks5
+    server: 89.234.145.167
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-57"
+    type: socks5
+    server: 156.78.234.89
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-58"
+    type: socks5
+    server: 203.167.89.234
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-59"
+    type: socks5
+    server: 67.234.78.145
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-60"
+    type: socks5
+    server: 134.89.234.156
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-61"
+    type: socks5
+    server: 91.156.78.234
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-62"
+    type: socks5
+    server: 178.234.89.145
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-63"
+    type: socks5
+    server: 45.78.234.167
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-64"
+    type: socks5
+    server: 218.234.156.89
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-65"
+    type: socks5
+    server: 89.145.234.78
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-66"
+    type: socks5
+    server: 156.89.234.167
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-67"
+    type: socks5
+    server: 203.78.145.234
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-68"
+    type: socks5
+    server: 67.167.234.89
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-69"
+    type: socks5
+    server: 134.234.78.156
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-70"
+    type: socks5
+    server: 91.89.234.145
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-71"
+    type: socks5
+    server: 178.156.234.78
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-72"
+    type: socks5
+    server: 45.234.89.167
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-73"
+    type: socks5
+    server: 218.78.234.145
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-74"
+    type: socks5
+    server: 89.234.156.78
+    port: 19568
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-75"
+    type: socks5
+    server: 156.145.234.89
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-76"
+    type: socks5
+    server: 203.234.78.167
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-77"
+    type: socks5
+    server: 67.89.234.145
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-78"
+    type: socks5
+    server: 134.156.234.78
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-79"
+    type: socks5
+    server: 91.234.167.89
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-80"
+    type: socks5
+    server: 178.78.234.156
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-81"
+    type: socks5
+    server: 45.167.234.89
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-82"
+    type: socks5
+    server: 218.89.234.145
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-83"
+    type: socks5
+    server: 89.234.78.167
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-84"
+    type: socks5
+    server: 156.156.234.89
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-85"
+    type: socks5
+    server: 203.89.234.145
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-86"
+    type: socks5
+    server: 67.234.167.78
+    port: 1088
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-87"
+    type: socks5
+    server: 134.78.234.189
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-88"
+    type: socks5
+    server: 91.167.234.89
+    port: 10888
+    username: mtest
+    password: mtest
+
+  - name: "SOCKS5-89"
+    type: socks5
+    server: 178.89.234.145
+    port: 1052
+    username: mtest
+    password: mtest
