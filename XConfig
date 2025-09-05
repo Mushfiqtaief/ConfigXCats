@@ -1,0 +1,22 @@
+proxy-providers:
+  ECats:
+    type: http
+    url: "https://tinyurl.com/ExperimentCats"
+    interval: 300
+    path: ./Cats.yaml
+    health-check:
+      enable: true
+      interval: 300
+
+proxy-groups:      
+  - name: "NextG"
+    type: load-balance
+    hidden: true
+    use:
+      - ECats
+    url: "http://1.1.1.1"
+    interval: 3
+    strategy: round-robin
+    
+rules:
+  - MATCH,NextG
