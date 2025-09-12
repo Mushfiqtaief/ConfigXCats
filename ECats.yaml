@@ -25,49 +25,41 @@ proxies:
     port: 11011
     
   - name: "🅑🅓 ➋➎"
+    tyoe: socks5
+    server: 1.1.1.1
     port: 11011
     
   - name: "🅑🅓 ➋➌"
     type: socks5
-    server: 45.115.112.154
+    server: 1.1.1.1
     port: 11011
     
   - name: "🅑🅓 ➋➍"
     type: socks5
-    server: 45.115.112.193
+    server: 1.1.1.1
     port: 11011
     
   - name: "🅑🅓 ➋➎"
     type: socks5
-    server: 45.115.112.244
-    port: 11808
-    username: noo
-    password: o
+    server: 1.1.1.1
+    port: 11011
     
   - name: "🅑🅓 ➋➏"
     type: socks5
-    server: 45.115.113.217
-    port: 9090
-    username: MX
-    password: XM
+    server: 1.1.1.1
+    port: 11011
     
   - name: "🅑🅓 ➋➐"
     type: socks5
-    server: 45.115.113.105
-    port: 9006
-    username: demo
-    password: demo
+    server: 1.1.1.1
+    port: 11011
     
   - name: "🅑🅓 ➋➑"
     type: socks5
-    server: 45.115.112.242
-    port: 11808
-    username: noo
-    password: o
+    server: 1.1.1.1
+    port: 11011
     
   - name: "🅑🅓 ➋➒"
     type: socks5
-    server: 45.115.112.158
-    port: 6006
-    username: noo
-    password: o
+    server: 1.1.1.1
+    port: 11011
