@@ -63,3 +63,8 @@ proxies:
     type: socks5
     server: 1.1.1.1
     port: 11011
+
+  - name: "➌⓿"
+    type: socks5
+    server: 1.1.1.1
+    port: 11011
